@@ -1,135 +1,186 @@
-@media (max-width: 600px){
-  .entrarBatePapo{
-    width:100%;
-    height: 700px;
-    background-color: #ffffff;
-  }
+.esconder {
+  display: none;
+}
+.entrarBatePapo {
+  width: 100%;
+  height: 700px;
+  background-color: #ffffff;
+}
 
-  .logo{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .logo img{
-    margin-top: 72px
-  }
+.logo img {
+  margin-top: 72px;
+}
 
-  .enterUser{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.enterUser {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  .cadastro {
-    width:261px;
-    height:54px;
-    margin-top:120px;
-    border-radius:4px;
-    background-color: #ffffff;
-    border: 1px solid #d7d7d7
-  }
+.cadastro {
+  width: 261px;
+  height: 54px;
+  margin-top: 120px;
+  border-radius: 4px;
+  background-color: #ffffff;
+  border: 1px solid #d7d7d7;
+}
 
-  .cadastro::placeholder {
-    font-size: 18px;
-    padding: 65px;
-  }
-  
-  .enterBotao{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+.cadastro::placeholder {
+  font-size: 18px;
+  padding: 65px;
+}
 
-   button{
-    width:109px;
-    height:45px;
-    top:327px;
-    margin-top: 40px;
-    border-radius:9px;
-    border: 1px solid #e5e5e5;
-    background-color:#e7e7e7;
-  }
+.enterBotao {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-  body{
-   overflow-x: hidden;
-   background-color: #e5e5e5;
-  }
+body {
+  overflow-x: hidden;
+  background-color: #f7f5f5;
+}
 
-  .header{
-    display: flex;
-    justify-content:space-between;
-    padding: 30px;
-    width: 100%;
-    height:50px;
-    background-color: #ffffff;
-   
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  width: 100%;
+  height: 40px;
+  background-color: #ffffff;
+  /* position:absolute; */
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.05);
+  overflow:hidden;
+}
 
-  .logo-uol{
-    width:50px;
-    height: 50px;
-  }
+.logo-uol {
+  width: 50px;
+  height: 50px;
+}
 
-  .icon{
-    font-size:50px;
-    margin-right: 60px;
-  }
+.icon {
+  font-size: 50px;
+  margin-right: 60px;
+}
 
-  .entrar-sair{
-    display: flex;
-    padding: 20px;
-    background-color: #dcdcdc;
-    width: 100%;
-  }
+.conteudo {
+  max-height: 540px;
+  overflow:auto;
+}
 
-  .conteudo{
-    display: flex;
-  }
+.chat {
+  padding-left: 10px;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  width: 100%;
+}
 
-  .chat{
-    padding-left: 10px;
-    font-size: 14px;
-    font-family:'Roboto', sans-serif; 
-  }
+ .btn-login {
+  width: 109px;
+  height: 45px;
+  top: 327px;
+  margin-top: 40px;
+  border-radius: 9px;
+  border: 1px solid #e5e5e5;
+  background-color: #e7e7e7;
+} 
 
-  .horario{
-    font-size: 14px;
-    color:#aaaaaa;
-    font-family: 'Roboto', sans-serif;
-  }
+.horario {
+  font-size: 14px;
+  color: #aaaaaa;
+  font-family: "Roboto", sans-serif;
+}
 
-  .mensagensNormais{
-    display: flex;
-    padding: 20px;
-    background-color: #ffffff;
-    width: 100%;
-  }
+.usuario {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  margin-left: 10px;
+  font-weight: bold;
+}
 
-  .mensagensReservadas{
-    display: flex;
-    padding: 20px;
-    background-color: #ffdede;
-    width: 100%;
-  }
+.destinatario {
+  font-size: 14px;
+  margin-left: 5px;
+  font-weight: bold;
+}
 
+.remetente {
+  font-size: 14px;
+  color: #000000;
+  margin-left: 5px;
+  font-family: "Roboto", sans-serif;
+}
 
-  .mensagemEnviada{
-    width: 100%;
-    height:80px;
-    margin-top: 230px;
-    border: 1px solid #ffffff;
-    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
-    
-  }
+.tipoMensagem {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+  margin-left: 5px;
+ }
 
-  .mensagemEnviada::placeholder{
-    font-size:18px;
-    font-style: italic;
-    font-family: 'Roboto', sans-serif;
-    color:#000000;
-   
-    
-  }
+.mensagensEnviadas {
+  font-size: 14px;
+  color: #000000;
+  font-family: "Roboto", sans-serif;
+}
+.entrar-sair {
+  display: flex;
+  padding: 10px;
+  background-color: #dcdcdc;
+  margin-bottom: 10px;
+  width: 100%;
+}
 
+.mensagensNormais {
+  display: flex;
+  padding: 10px;
+  background-color: #ffffff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.mensagensReservadas {
+  display: flex;
+  padding: 10px;
+  background-color: #ffdede;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.footer {
+  width: 100%;
+  height: 80px;
+  border: 1px solid #ffffff;
+  box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+  display: flex;
+  bottom: 2px;
+  overflow:hidden;
+}
+.mensagem {
+  height: 80px;
+  width: 80%;
+  border: none;
+}
+
+.btn-enviar {
+  background-color: #ffffff;
+  border: none;
+  color: black;
+  font-size: 28px;
+  cursor: pointer;
+  width: 20%;
+}
+
+.mensagem::placeholder {
+  font-size: 18px;
+  font-style: italic;
+  font-family: "Roboto", sans-serif;
+  color: #000000;
 }
